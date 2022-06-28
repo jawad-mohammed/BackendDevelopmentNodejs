@@ -1,0 +1,29 @@
+                 Nodejs tutorial
+Basic syntax 
+Nodejs is a Javascript Runtime(Not a language or a framework)
+Nodejs built on v8 JavaScript engine as browsers
+However its  developed in c++
+Its top choice for developers beacuse it allows to run javascript code on the server.
+Its fast,efficient and highly scalable.
+Event driven,non blocking I/O model.
+Its non-blocking and asynchronous I/O calls
+It supports tens of thousands concurrent connections
+It optimizes throughput and scalability in apps with many I/O operations
+All of this makes Node.js apps very fast and efficient
+
+Nodejs is useful in Anything that is not CPU intensive
+
+Projects could be done with node
+CRUD apps,
+Real time services Chat,Live updates etch
+CRUD apps, shopping carts, social media apps
+ Tools and utilities
+Install 3rd party packages (frameworks,libraries,tools)
+Packages get stored in the "node_module" folder
+All dependencies are listed in a "package.json" file
+NPM scripts can be created to run certain taskes u
+such as run a server
+npm init   //generates a package.json file
+npm install express  //install package locally
+npm install -g nodemon //install a package globally
+
