@@ -26,4 +26,17 @@ such as run a server
 npm init   //generates a package.json file
 npm install express  //install package locally
 npm install -g nodemon //install a package globally
-
+/////////////////////////////////////////////////////////
+npm.js //repository
+Package.json file
+..Manifest file with app info
+..Lists dependencies name and version
+Specify if versions should be updated
+create Npm scripts 
+Easily create with "npminit"
+         Lodash tutorial
+Lodash is javascript library which provides utility functions for common programming taskes.It uses functional programming paradigm
+Lodash was inspired by underscore.js
+Lodash is helpful programmes write more concise and easier to maintain javascript code
+Lodash contains tools to simplify programming with strings, numbers, arrays,functions and objects
+By convention,Lodash module is mapped to the underscore character
