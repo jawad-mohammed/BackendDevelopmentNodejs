@@ -40,3 +40,19 @@ Lodash was inspired by underscore.js
 Lodash is helpful programmes write more concise and easier to maintain javascript code
 Lodash contains tools to simplify programming with strings, numbers, arrays,functions and objects
 By convention,Lodash module is mapped to the underscore character
+      npm tutorial
+Node package manager
+//it is similar to pips in python 
+..preinstalled with Nodejs
+..Easily install module/packages on your system
+..Modules are basically javascript libraries
+..Makes it easy for developers to share and reuse code
+//its javascript package manager
+This basic tutorial gives you insights on 
+Install,remove,update and list packages
+All about package.json
+Local and global packages
+Dependencies / dev-dependencies
+Commands and shortcuts
+versioning 
+NPM scripts
