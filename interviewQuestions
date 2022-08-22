@@ -1,0 +1,40 @@
+# basic concepts 
+https://github.com/Gauthamjm007/Backend-NodeJS-Golang-Interview_QA/blob/master/img/express_req_methods.png
+
+
+
+
+What do you mean by Asynchronous API
+All API on nodejs library are asynchronous that is non-blocking
+It essentially means a Nodejs based server never waits for a API to return data
+Server moves to next API after calling it and a notification mechanism of Event of Nodejs helps server to get response from the previos API call
+
+What are the benefits of using Nodejs
+Asynchronous and EventDriven:All APIs of Nodejs library are asynchronous that is non-blocking It means Node.js based server never waits for a API to return data.
+Server moves to next API after calling it and a notification mechanism of events of Node.js helps server to get response from the previous API call
+very Fast: Being built on Google Chorome Javascript  EngineNodejs library us very fast in code execution
+Single Threaded but highly scalable: Nodejs uses a single threaded modle with event looping.Event mechanism helps server to respond in a non-blocking ways and makes server highly scalable as opposed to traditional servers which create limited threads to handle requests.Nodejs uses a single threaded program and same program can services much larger number of requests than traditional server like Apache HTTP server 
+No Buffering.Nodejs applications never buffer any data.These applications simply output the data in chunks
+
+Is nodejs a single threaded?
+Yes Nodejs is single threaded modle with EventLooping
+
+What  is Event Listeners
+Event Listeners are similar to call back functions but are associated with some event.For example whan a server listens to http request on a given port a Event will be generated and to specify http server has received and will invoke corresponding event listeners
+Basically Event listeners are also call backs for a corresponsing event
+Node.js has built in event's and built in event listeners .Node.js also provides functionality to create custom event and Customer Event Listeners
+/////////////////////////////////////////////////////////////
+If Nodejs is single threaded then how it handles concorrency
+Nodejs provides a single thread to programmers so that  code can be written easily and without bottlenectNodejs  internally uses multiple POSIX threads for various I/O operations such as File,DNS,Network calls etc
+When Nodejs gets I/O requests it creates or uses a thread to perform that I/O operation and once the operation is done, it pushes the result to the event queue. On each such event event loop runs and checks and if the execution stack of Nodejs empty then it adds the queue result to execution stack
+
+/////////////////////////////////////////////////////////////
+What are the core modules of Nodejs
+EventEmitter
+Stream
+FS
+Net
+Global Objects
+
+What is V8 ??
+The v8 library provides Nodejs with a Javascriot engine It means a program that converts Javascript code into lower level or machone code that microprocessor can understand  Which Node.js controls via V8 C++ API
