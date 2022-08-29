@@ -1,0 +1,33 @@
+cookies are used to store piece of info in client side 
+Cookies are small pieces of text data stored in the browser 
+mainly used for authentication,tracking and personalization
+..
+Limits
+Typically these size are limited
+300 cookies in total
+4096 bytes per cookies20 cookie per domain
+81920 bytes per domain
+<><>  Given 20 cookies of maz size 4096 = 81920 bytes        <>
+
+How to create cookie
+javascript 
+document.cookie
+
+HTTP response
+Set-Cookie:
+
+How to read a cookie
+in javascript we don't have access tp httponly cookies
+
+How to delete a cookie
+just set the same cookie with passing "expires" as a past date
+
+Attributes:
+Secure:The cookie will be sent only over https.
+HTTPOnly: Can't be accessed from client side
+Domain: The cookie will be sent if the domain matches or of 
+it is a subdomain,then the path attribute will be checked next
+
+path: if the path attribute was set to the web server root/then the application
+cookies will be sent to every application withing the same domain if set to specific path like 
+/blog
